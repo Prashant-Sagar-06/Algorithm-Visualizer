@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#bars {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+}
+
+.bar {
+    width: 5px;
+    background: #4caf50;
+    margin: 1px;
+}

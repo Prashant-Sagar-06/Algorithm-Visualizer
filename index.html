@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithm Visualizer</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>Algorithm Visualizer</h1>
+
+    <!-- Controls Section -->
+    <div class="controls">
+
+        <!-- Algorithm Dropdown -->
+        <label for="algoSelect">Algorithm:</label>
+        <select id="algoSelect">
+            <option value="bubble">Bubble Sort</option>
+            <option value="merge">Merge Sort</option>
+            <option value="quick">Quick Sort</option>
+            <option value="insertion">Insertion Sort</option>
+        </select>
+
+        <!-- Buttons -->
+        <button id="generateBtn">Generate Array</button>
+        <button id="startBtn">Start</button>
+
+        <!-- Sliders -->
+        <label>
+            Size:
+            <input type="range" id="sizeSlider" min="10" max="150" value="50" />
+        </label>
+
+        <label>
+            Speed:
+            <input type="range" id="speedSlider" min="10" max="300" value="150" />
+        </label>
+
+    </div>
+
+    <!-- Bars Container -->
+    <div id="bars"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
